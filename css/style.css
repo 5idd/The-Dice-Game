@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lobster+Two:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+
+body{
+    margin: 0px;
+    background-color: #35353F;
+    box-sizing: border-box;
+}
+
+* p{
+    margin: 0;
+}
+
+/* container */
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 75%;
+    /* border: 2px solid red; */
+}
+
+/* main header */
+
+.container header{
+    font-family: 'Lobster Two', cursive;
+    color:#48C09B;
+    font-size: 6rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* main */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+}
+
+main img{
+    height: 270px;
+}
+
+
+/* dice box */
+
+.box{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    color:#48C09B;
+    font-size: 3rem;
+}
+
+.score1{
+    border: #35353F solid 6px;
+}
+
+/* play-bar */
+.play-bar{
+    margin: 25px;
+}
+
+#btn{
+    padding: 10px 50px;
+    font-size: 2rem;
+    border:2px #13A6DC solid;
+    background-color: #35353F;
+}
+#btn:hover{
+    background-color: #13A6DC;
+    color: white;
+    cursor: pointer;
+}
